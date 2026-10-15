@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "batch_id": null,
+  "owner_instruction_evidence": null,
+  "workspace": null,
+  "defaults": {
+    "model": null,
+    "reasoning_effort": null,
+    "license": null,
+    "history_strategy": "separate_clean_snapshot_preserve_private_original",
+    "publication_surface": null,
+    "rights_confirmed_for_listed_projects": false,
+    "delegation_authorized_for_listed_projects": false,
+    "publish_if_pass_authorized_for_listed_projects": false,
+    "lead_model": null,
+    "lead_effort": null,
+    "worker_model": null,
+    "worker_effort": null
+  },
+  "capacity": {
+    "available_session_slots": null,
+    "publisher_role": null,
+    "max_active_crews": null,
+    "execution_surface": null
+  },
+  "projects": [
+    {
+      "name": null,
+      "source_checkout": null,
+      "source_repository": null,
+      "source_revision": null,
+      "source_dirty_manifest": null,
+      "candidate_directory": null,
+      "public_destination": null,
+      "lead": {
+        "name": null,
+        "identity_reference": null,
+        "session_id": null
+      },
+      "writer": {
+        "name": null,
+        "identity_reference": null,
+        "session_id": null
+      },
+      "reviewer": {
+        "name": null,
+        "identity_reference": null,
+        "session_id": null
+      },
+      "owned_paths": [],
+      "runtime_matrix": [],
+      "acceptance_commands": [],
+      "private_evidence_directory": null,
+      "state": "queued",
+      "last_receipt": null,
+      "reviewed_manifest": null,
+      "review_verdict": null,
+      "blocking_issue": null,
+      "published_url": null,
+      "published_revision": null,
+      "repository_payload_manifest": null,
+      "repository_payload_manifest_sha256": null,
+      "mandatory_sanitation_checks": [],
+      "known_limitations": [],
+      "behavior_verification": "unverified"
+    }
+  ],
+  "mode": null,
+  "release_standard": null
+}

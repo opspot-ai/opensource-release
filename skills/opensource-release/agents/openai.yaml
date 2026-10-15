@@ -1,0 +1,4 @@
+interface:
+  display_name: "Open-source Release"
+  short_description: "Prepare sanitized repositories under explicit owner authority"
+  default_prompt: "Use $opensource-release to prepare the projects I name, preserve their originals, and follow their current rights, review, and publication boundaries."
